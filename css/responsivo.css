@@ -1,0 +1,121 @@
+@media screen and (max-width:1005px) {
+
+    .navbar{
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .header{
+        padding-top: 50px;
+    }
+
+    .headline{
+        flex:100%;
+        margin:5%;
+        text-align: center;
+    }
+
+    .headline p{
+        text-align: center;
+    }
+
+    .img-headline{
+        flex:100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+/* atualização*/
+
+    .servico{
+        /* background: rebeccapurple; */
+        display: inline-block;
+        height: 700px;
+        margin: 10px;
+        padding:0 ;
+    }
+
+    .card{
+        padding: 0;
+    }
+    .logo{
+    
+    }
+    .header{
+        padding-top: 0px;
+    }
+
+    /* fim da atualização */
+
+
+    .whats{
+        display: none;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+
+}
+
+
+    /* Atualização para tamanhos menores */
+
+@media screen and (max-width:700px) {
+
+    .servico{
+        /* background: rebeccapurple; */
+        display: inline-block;
+        height: 800px;
+        margin: 10px;
+        padding:0 ;
+    }
+
+
+    footer{
+        margin-top: 100px;
+        height: 200px;
+        background-image: linear-gradient(180deg, #180f4a,#090422,black);
+        text-align: center;
+        /* border-top: 5px solid #ff2978; */
+    }
+        
+    .logo-rodape{
+        padding: 10px;
+        /* border: 1px solid white; */
+    }
+}
+       
+@media screen and (max-width:420px) {
+
+    .servico{
+        /* background: rebeccapurple; */
+        display: inline-block;
+        height: 1090px;
+        margin: 10px;
+        padding:0 ;
+    }
+        
+        
+    footer{
+        margin-top: 100px;
+        height: 200px;
+        background-image: linear-gradient(180deg, #180f4a,#090422,black);
+        text-align: center;
+    }
+                
+    .logo-rodape{
+    padding: 10px;
+    /* border: 1px solid white; */
+    }
+
+}
